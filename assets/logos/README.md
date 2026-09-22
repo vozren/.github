@@ -12,6 +12,10 @@
 
 中文名称由等线 Light 字形转换为矢量轮廓；最终文件不包含字体文件，也不要求使用方安装字体。
 
+## GitHub 组织头像
+
+[vozren-github-avatar.png](vozren-github-avatar.png)：512 × 512 像素、白色背景的 PNG，可直接用于 GitHub 组织头像上传。由已确认的 [vozren-icon.svg](vozren-icon.svg) 导出，保留完整图标及蓝色渐变，不含企业名称。
+
 ## Favicon
 
 - [favicon.ico](favicon.ico)：由完整的 [vozren-icon.svg](vozren-icon.svg) 直接导出，包含 16、24、32、48、64、128、256 像素的透明图像。
