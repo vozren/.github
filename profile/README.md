@@ -1,6 +1,10 @@
 <div align="center">
 
-# Vozren · 沃兹伦科技
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vozren/.github/main/assets/logos/vozren-logo-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/vozren/.github/main/assets/logos/vozren-logo.svg">
+  <img src="https://raw.githubusercontent.com/vozren/.github/main/assets/logos/vozren-logo.svg" alt="Vozren · 沃兹伦科技" width="640">
+</picture>
 
 **用技术放大每一个声音。**
 *Amplifying every voice through technology.*
