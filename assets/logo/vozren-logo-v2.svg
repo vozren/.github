@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="grad-v2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0EA5E9"/>
+      <stop offset="100%" style="stop-color:#6366F1"/>
+    </linearGradient>
+  </defs>
+  <!-- Rounded square background -->
+  <rect x="32" y="32" width="448" height="448" rx="96" fill="url(#grad-v2)"/>
+  <!-- Concentric sound rings forming V -->
+  <circle cx="256" cy="200" r="48" fill="none" stroke="#FFFFFF" stroke-width="20" opacity="0.3"/>
+  <circle cx="256" cy="200" r="80" fill="none" stroke="#FFFFFF" stroke-width="20" opacity="0.5"/>
+  <circle cx="256" cy="200" r="112" fill="none" stroke="#FFFFFF" stroke-width="20" opacity="0.7"/>
+  <!-- V shape at bottom -->
+  <path d="M 176 280 L 256 400 L 336 280" 
+        fill="none" stroke="#FFFFFF" stroke-width="28" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
