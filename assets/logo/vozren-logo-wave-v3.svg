@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="grad-wave3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366F1"/>
+      <stop offset="100%" style="stop-color:#8B5CF6"/>
+    </linearGradient>
+  </defs>
+  <!-- Rounded square background -->
+  <rect x="32" y="32" width="448" height="448" rx="96" fill="url(#grad-wave3)"/>
+  <!-- V with wave texture -->
+  <path d="M 110 130 L 190 370 L 270 130" 
+        fill="none" stroke="#FFFFFF" stroke-width="32" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Wave lines on V -->
+  <path d="M 130 160 L 170 160" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round" opacity="0.6"/>
+  <path d="M 145 200 L 185 200" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round" opacity="0.6"/>
+  <path d="M 160 240 L 200 240" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round" opacity="0.6"/>
+  <path d="M 175 280 L 215 280" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round" opacity="0.6"/>
+  <!-- O as sound wave circle -->
+  <circle cx="350" cy="250" r="80" fill="none" stroke="#FFFFFF" stroke-width="32"/>
+  <!-- Wave bars inside O -->
+  <rect x="320" y="230" width="10" height="40" rx="5" fill="#FFFFFF" opacity="0.8"/>
+  <rect x="340" y="210" width="10" height="80" rx="5" fill="#FFFFFF" opacity="0.8"/>
+  <rect x="360" y="230" width="10" height="40" rx="5" fill="#FFFFFF" opacity="0.8"/>
+</svg>
