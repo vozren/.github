@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="grad-dv4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366F1"/>
+      <stop offset="100%" style="stop-color:#8B5CF6"/>
+    </linearGradient>
+  </defs>
+  <!-- Deep V: clean sharp lines, point at bottom -->
+  <path d="M 130 100 L 256 400 L 382 100"
+        fill="none" stroke="url(#grad-dv4)" stroke-width="42" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Irregular sound wave bars INSIDE the V, following the angle -->
+  <rect x="200" y="200" width="10" height="40" rx="5" fill="url(#grad-dv4)" transform="rotate(-20 205 220)"/>
+  <rect x="225" y="260" width="8" height="55" rx="4" fill="url(#grad-dv4)" transform="rotate(-15 229 287)"/>
+  <rect x="250" y="320" width="12" height="30" rx="6" fill="url(#grad-dv4)" transform="rotate(-5 256 335)"/>
+  <rect x="280" y="270" width="9" height="45" rx="4.5" fill="url(#grad-dv4)" transform="rotate(18 284 292)"/>
+  <rect x="305" y="210" width="11" height="35" rx="5.5" fill="url(#grad-dv4)" transform="rotate(22 310 227)"/>
+</svg>
