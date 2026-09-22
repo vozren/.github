@@ -1,6 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="640" height="640" viewBox="0 0 640 640" fill="none" role="img" aria-labelledby="logo-title logo-description">
   <title id="logo-title">Vozren V/Z icon</title>
   <desc id="logo-description">Vozren V/Z icon without a company name, for light backgrounds. Transparent vector artwork.</desc>
+  <style>
+    #monogram > path:first-of-type { stroke-width: 10px; }
+    #monogram > path:not(:first-of-type) { stroke-width: 7px; }
+    #monogram > g path { stroke-width: 6px; }
+    #icon-terminals circle { stroke-width: 7px; }
+  </style>
   <defs>
     <linearGradient id="monogram-ribbon" gradientUnits="userSpaceOnUse" x1="678" y1="800" x2="822" y2="800">
       <stop stop-color="#353b50" />
@@ -32,6 +38,7 @@
       </g>
     </mask>
   </defs>
+  <rect x="6" y="6" width="628" height="628" rx="104" fill="#ffffff" stroke="#dfe6e8" stroke-width="12" />
   <g stroke-linecap="round" stroke-linejoin="round">
     <g transform="translate(40 48) translate(-498 -334)">
       <g id="monogram" mask="url(#open-terminals)">

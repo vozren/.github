@@ -18,14 +18,17 @@
 
 ## Favicon
 
-- [favicon.ico](favicon.ico)：由完整的 [vozren-icon.svg](vozren-icon.svg) 直接导出，包含 16、24、32、48、64、128、256 像素的透明图像。
-- [favicon.svg](favicon.svg)：与 [vozren-icon.svg](vozren-icon.svg) 完全一致，适用于支持 SVG favicon 的浏览器。
+- [favicon.ico](favicon.ico)：包含针对标签页优化的 16、32、48 像素图像。
+- [favicon-32.png](favicon-32.png)：32 × 32 像素的浏览器标签页图标。
+- [apple-touch-icon.png](apple-touch-icon.png)：180 × 180 像素的 Apple Touch Icon。
+- [favicon.svg](favicon.svg)：基于 [vozren-icon.svg](vozren-icon.svg) 的 favicon 专用版本。
 
-Favicon 沿用完整图标的形状、电路线条、节点及渐变；ICO 仅按目标尺寸缩放导出。
+Favicon 保留原始 V/Z 图形、电路线条、节点及渐变，并增加白色圆角底和浅灰描边，以便在深浅色浏览器标签栏中保持稳定对比度。16、32、48 像素版本对原有描边进行了小尺寸光学校正；完整品牌图标本身不受影响。
 
 按网站实际部署路径调整以下地址：
 
 ```html
-<link rel="icon" href="/assets/logos/favicon.ico" sizes="16x16 24x24 32x32 48x48 64x64 128x128 256x256">
-<link rel="icon" href="/assets/logos/favicon.svg" type="image/svg+xml" sizes="any">
+<link rel="icon" href="/assets/logos/favicon-32.png" type="image/png" sizes="32x32">
+<link rel="icon" href="/assets/logos/favicon.ico" sizes="16x16 32x32 48x48">
+<link rel="apple-touch-icon" href="/assets/logos/apple-touch-icon.png" sizes="180x180">
 ```
